@@ -8,5 +8,10 @@ def pretty_print_nds(nds)
 end
 
 def print_first_directors_movie_titles
-  nds
+  db = directors_database
+  i = 0 
+  while i < db.length do 
+    puts db[i]
+    i += 1
+  end 
 end
