@@ -14,5 +14,5 @@ def print_first_directors_movie_titles
   #   puts db[0]
   #   i += 1
   # end 
-  puts db[0][:movies]
+  puts db[0][:movies][0]
 end
