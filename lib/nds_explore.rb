@@ -13,6 +13,5 @@ def print_first_directors_movie_titles
   while i < db[0][:movies].length do 
     puts db[0][:movies][i][:title]
     i += 1
-  end 
-  # puts db[0][:movies][0][:title]
+  end
 end
